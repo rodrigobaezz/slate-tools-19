@@ -87,6 +87,9 @@
   "devDependencies": {
     "mock-fs": "^4.6.0"
   },
+  "resolutions": {
+    "**/@shopify/themekit": "https://github.com/rodrigobaezz/node-themekit",
+  },
   "publishConfig": {
     "access": "public",
     "@shopify:registry": "https://registry.npmjs.org"
